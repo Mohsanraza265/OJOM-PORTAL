@@ -1,0 +1,669 @@
+html, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+    margin: 0;
+	padding: 0;
+    overflow: hidden;
+	overflow-y: auto;
+	position: relative;
+    
+	
+}
+*{
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	scroll-behavior: smooth;
+
+}
+.x-container{
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	
+	
+}
+img{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.flex{
+	display: flex;
+}
+.justify{
+	justify-content: space-between;
+}
+
+.x-row{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+}
+.col-3, .col-2, .col-4, .col-5 {
+	padding: 15px;
+	position: relative;
+}
+
+.col-3{
+	flex: 0 0 33.333333%;
+}
+.col-2 {
+	flex: 0 0 50%;
+}
+.x-col-2 {
+	flex: 0 0 50%;
+}
+.col-5{
+	flex: 0 0 20%;
+}
+.col-4{
+	flex: 0 0 25%;
+}
+
+
+
+/*---------------login page-----------------------*/
+
+.login-sec1 {
+    background-image:url('https://theojomed.co//storage/settings/January2022/bJU58N0OyxzIyCo3yZfc.jpg');
+    
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+    height: 100vh;
+}
+.login-sec2 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg,rgba(21,21,28,0) 0,rgba(21,21,28,.1) 40%,rgba(21,21,28,.3) 55%,rgba(21,21,28,.61) 75%,#15151c);
+}
+.login-sec2 .left {
+    width: 67%;
+    float: left;
+    height: 100vh;
+}
+.login-sec2 .right {
+    width: 33%;
+    float: right;
+    height: 100vh;
+}
+.left .left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.left .left-box img{
+    height: auto;
+    margin: 0 auto;
+    max-width: 52px;
+    padding-bottom: 20px;
+    padding-top: 36px;
+    margin-left: 20px;
+}
+.left-box h1 {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 20px 0 0 14px;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    vertical-align: middle;
+    z-index: 9999;
+}
+.left-box p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    left: 15px;
+    margin-top: 0;
+    max-width: 650px;
+    opacity: .9;
+    position: relative;
+    z-index: 99;
+}
+.right-box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    border-top: 5px solid #22A7F0;
+    padding: 0px 30px;
+}
+.right-box .right-form p {
+    border-radius: 2px;
+    color: #757c85;
+    font-family: Open Sans,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    padding-left: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    width: auto;
+}
+.right-form label {
+    color: #58666e;
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0 0 3px;
+    opacity: 1;
+    
+    transition: opacity .2s ease;
+}
+.right-form .controls input {
+    width: 100%;
+    padding: 6px 0px;
+    outline: none;
+    border: none;
+}
+.right-form input:focus .controls{
+    border: 2px solid red;
+}
+.controls {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px ;
+    border: 2px solid rgba(28,43,54,.07);
+    margin: 12px 0px;
+}
+.checkbox input{
+    float: left;
+}
+.checkbox label {
+    padding: 3px 28px;
+    font-size: 13px;
+}
+.right-form .btn {
+    margin: 30px 0px;
+}
+.right-form .btn span {
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    background-color: #22A7F0;
+    font-size: 10px;
+    border-radius: 3px;
+}
+.right-form .btn span:hover {
+    background-color: #4fb7f1;
+}
+
+/*---------------login page-----------------------*/
+
+
+
+
+
+/*---------------Portal page-----------------------*/
+
+
+
+/*--------------------portal-left start=------------------------*/
+
+
+
+.portal .portal-left {
+    float: left;
+    width: 12%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+}
+.portal .portal-right {
+    float: right;
+    width: 88%;
+    
+}
+.portal-left-box {
+    background-color: #22A7F0;
+    padding: 12px 12px;
+}
+.portal-left-box img{
+    height: auto;
+    margin: 0 auto;
+    max-width: 30px;
+    
+}
+.portal-left-box .title {
+    font-weight: 600;
+    left: 4px;
+    position: relative;
+    text-transform: uppercase;
+    top: 7px;
+    color: white;
+}
+.portal-left-box-1 {
+    background-image:url('https://theojomed.co//storage/settings/January2022/bJU58N0OyxzIyCo3yZfc.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    
+    
+}
+.portal-left-box-1 img{
+    width: 35px;
+    
+    
+}
+.portal-left-box-1 h3 {
+    font-weight: 100;
+    left: 4px;
+    position: relative;
+    top: 7px;
+    color: white;
+
+}
+.active {
+    font-size: 14px !important;
+    color: white !important;
+}
+.portal-left-box-1 .flex {
+    background-color: rgba(0, 0, 0, .4);
+    padding: 12px 12px;
+}
+.navbar > ul {
+    background-color: #353d47;
+    width: 100%;
+    height: 87.3vh;
+    overflow-y: auto;
+    padding: 4px 0px;
+    
+}
+.navbar > ul > li {
+    color: #cbccce;
+    position: relative;
+    
+    transition: all .4s linear;
+}
+.navbar > ul > li:hover {
+    background-color: #495768;
+}
+.navbar > ul > li > a {
+    color: white;
+    padding: 14px 17px;
+    display: block;
+}
+.navbar > ul > li  .m {
+    margin-right: 15px;
+    font-size: 20px;
+   
+}
+.navbar > ul li span {
+    
+    padding: 0px 5px;
+    font-size: 13px;
+}
+.main-fa {
+    position: absolute;
+    top: 19px;
+    right: 20px;
+}
+.navbar > ul > li > ul {
+    padding: 0px 0px 0px 0px;
+    display: none;
+}
+.navbar > ul > li > ul > li {
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+.navbar > ul li > ul li {
+    list-style: none;
+}
+.navbar > ul > li > ul > li a {
+    font-size: 12px;
+    color: white;
+    padding-left: 14px;
+}
+.navbar > ul > li > ul > li a .fa {
+    font-size: 12px;
+}
+.navbar ul .accordion li a .fa {
+    margin-right: 12px;
+}
+
+/*--------------------portal-left start=------------------------*/
+
+
+
+/*--------------------portal-right start=------------------------*/
+
+
+
+.portal-right {
+    background-color: #f9f9f9;
+    height: auto;
+}
+.portal-right-box {
+    position: fixed;
+    top: 0px;
+    background-color: #f9f9f9;
+    height: 60px;
+    z-index: 9999;
+    width: 100%;
+    padding: 20px;
+}
+.flex-bw {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.portal-right-box .flex-bw .fa-arrow-left {
+    color: #706c6c;
+    font-size: 22px;
+    margin-right: 12px;
+    
+}
+.portal-right-box .flex-bw a{
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.portal-right-box .flex-bw .fa-ship {
+    color: #15151c;
+    padding: 0px 8px;
+}
+.portal-right-box .flex-bw span {
+    color: #15151c;
+    padding-right: 10px ;
+}
+.flex-bw-img img {
+    width: 11%; margin-top: -4px;
+}
+.flex-bw-img .fa-angle-double-down {
+    position: relative;
+    top: -8px;
+    padding: 0px 0px 0px 7px;
+}
+.right-content {
+    width: 95%;
+    margin: 0 auto;
+    padding: 100px 0px 50px 0px;
+}
+.parent-right-content-box {
+    height: 850px;
+    width: 100%;
+}
+.right-content-box {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.popup-box-1 {
+    position: fixed;
+    top: 65px;
+    right: 12px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 235px;
+    height: auto;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+    display: none;
+}
+.popup-box-1 button {
+    background: #fa2a00;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    opacity: .9;
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 12px;
+}
+.popup-box-1-img img {
+    width: 50px;
+    height: 50px;
+}
+.popup-box-1-content h3 {
+    color: #cac6c6;
+    font-size: 15px;
+}
+.popup-box-1-content p {
+    font-size: 12px !important;
+    color: #cac6c6;
+}
+.popup-box-1-content {
+    padding: 10px 0px 0px 10px;
+}
+.popup-box-1 .flex {
+    border-bottom: 1px solid #b9b8b8;
+    padding: 0px 0px 10px 0px;
+}
+.popup-box-1 > p {
+    color: black;
+    padding: 15px 0px 0px 8px;
+}
+.popup-box-1 > p .fa {
+    margin-right: 8px;
+}
+
+
+/*--------------------portal-right start=------------------------*/
+
+/*---------------Portal page-----------------------*/
+
+
+
+
+/*---------------Roles page-----------------------*/
+
+
+.roles-btn-sec1 .flex > div {
+    margin: 35px 12px;
+}
+.roles-lock-icon h2 {
+    color: #555;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    height: auto;
+    position: relative;
+}
+.roles-lock-icon h2 .fa {
+    font-size: 27px;
+    margin-right: 12px;
+    margin-top: 3px;
+}
+.green-btn {
+    background: #2ecc71;
+    border-radius: 5px;
+}
+.green-btn a {
+    color: white;
+    padding: 8px 18px;
+    display: block;
+    font-size: 13px;
+}
+.green-btn a .fa {
+    margin-right: 8px;
+}
+.red-btn {
+    background: #fa2a00;
+    border-radius: 5px;
+}
+.red-btn a {
+    color: white;
+    padding: 8px 18px;
+    display: block;
+    font-size: 13px;
+}
+.red-btn a .fa {
+    margin-right: 8px;
+}
+.blue-btn {
+    background: #22a7f0;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.blue-btn a {
+    color: white;
+    padding: 8px 18px;
+    display: block;
+    font-size: 13px;
+}
+.blue-btn a .fa {
+    margin-right: 8px;
+}
+
+.yellow-btn {
+    background: #f39c12;
+    border-radius: 5px;
+}
+.yellow-btn a {
+    color: white;
+    padding: 8px 18px;
+    display: block;
+    font-size: 13px;
+}
+.yellow-btn a .fa {
+    margin-right: 8px;
+}
+
+
+/*--------roles-table-sec1--------------*/
+
+
+.roles-table-sec1 {
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 5%);
+}
+.roles-table-sec1 .flex-bw {
+    margin-bottom: 20px;
+}
+.roles-table-sec1 .flex-bw span {
+    font-size: 14px;
+}
+.roles-table-sec1 .flex-bw .table-select select {
+    width: 70px;
+    padding: 5px 10px;
+    border: 1px solid #c9c5c5;
+    outline: none;
+}
+.table-search-input input {
+    padding: 10px 12px;
+    outline: none;
+    border: 1px solid #c9c5c5;
+}
+.table-search-input input:focus {
+    border: 1px solid #22A7F0;
+}
+
+
+/*-----table--------*/
+
+.table .table-first-row { 
+    background: #f8fafc;
+    border-bottom:1px solid #eaeaea;
+    padding: 15px 0px;
+}
+.table .table-second-row {
+    border-bottom:1px solid #eaeaea;
+    padding: 15px 0px;
+    position: relative;
+    transition: all .3s linear;
+}
+.table .table-second-row:hover {
+    background: #f5f5f5;
+}
+.btn-box {
+    position: absolute;
+    right: 10px;
+}
+.table .table-first-row p {
+    font-size: 14px;
+    color: rgb(75, 73, 73);
+}
+.table .table-second-row p {
+    font-size: 14px;
+    color: grey;
+    margin-top: 5px;
+}
+.table .table-second-row .column-1 {
+    margin-top: 5px;
+}
+.column-1 {
+    width: 10%;
+    padding: 0px 0px 0px 10px;
+}
+.column-2 {
+    width: 25%;
+}
+.column-3 {
+    width: 35%;
+}
+.column-4 {
+    width: 30%;
+    text-align: right;
+    padding: 0px 10px 0px 0px;
+}
+.showing-page p {
+    color: grey;
+}
+
+.roles-table-sec1 .pagination-box {
+    padding: 30px 0px;
+}
+.roles-table-sec1 .pagination-box .flex-bw {
+    margin-bottom: 0px !important; 
+}
+.pagination {
+    border: 1px solid #eaeaea;
+}
+.pagination ul {
+    display: inline-flex;
+}
+.pagination ul li {
+    list-style: none;
+    padding: 10px;
+}
+.pagination ul li:nth-child(2) {
+    background-color: #22A7F0;
+    color: white;
+}
+.pagination ul li:nth-child(2) a {
+    color: white;
+    padding: 10px;
+}
+.pagination a {
+    color: #15151c;
+    font-size: 12px;
+}
+.pagination a .fa {
+   margin-right: 8px;
+}
+
+
+/*---------------Roles page-----------------------*/
